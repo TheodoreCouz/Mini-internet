@@ -1,0 +1,19 @@
+AS number: 31
+IP adress: 130.104.229.33
+
+Command to connect (password: 2910db1342af890e):
+ssh -J cousint@studssh.info.ucl.ac.be -p 2031 root@130.104.229.33
+
+Command to access the website:
+ssh -L 8080:130.104.229.33:80 cousint@studssh.info.ucl.ac.be
+
+mini-Internet documentation:
+https://gitlab.ethz.ch/nsg/public/comm-net-2022-routing-project/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.1-The-FRRouting-CLI
+
+https://gitlab.ethz.ch/nsg/public/comm-net-2022-routing-project/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.2-Configuring-router-interfaces
+
+https://gitlab.ethz.ch/nsg/public/comm-net-2022-routing-project/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.3-Configure-static-routes
+
+https://gitlab.ethz.ch/nsg/public/comm-net-2022-routing-project/-/wikis/2.-Tutorial/2.2-Configuring-a-host
+
+https://gitlab.ethz.ch/nsg/public/comm-net-2022-routing-project/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.4-Configure-OSPF
